@@ -3,7 +3,7 @@ package flow
 /**
  * Basic 'for' code demonstrations in the Kotlin language
  * <p>
- *     The following code samples are borrowed from Prgramiz
+ *     The following code samples are borrowed from Programiz
  *     with the sole intent to demonstrate basic usage of 'for' loops in the Kotlin
  *     language. Samples have been modified.
  * </p>

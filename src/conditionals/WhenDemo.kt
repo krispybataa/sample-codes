@@ -3,7 +3,7 @@ package conditionals
 /**
  * Basic 'when' code demonstrations in the Kotlin language
  * <p>
- *     The following code samples are borrowed from Prgramiz
+ *     The following code samples are borrowed from Programiz
  *     with the sole intent to demonstrate basic usage of 'when' expressions in the Kotlin
  *     language. Samples have been modified.
  * </p>

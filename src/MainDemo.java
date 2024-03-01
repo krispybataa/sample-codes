@@ -4,6 +4,8 @@ import conditionals.IfDemo;
 import conditionals.WhenDemo;
 import flow.WhileDemo;
 import flow.ForDemo;
+import recursion.RecursionDemo;
+import recursion.TailRecursionDemo;
 public class MainDemo {
     public static void main(String[] args) {
         OutputDemo outdemo = new OutputDemo();
@@ -12,6 +14,8 @@ public class MainDemo {
         WhenDemo whenDemo = new WhenDemo();
         WhileDemo whileDemo = new WhileDemo();
         ForDemo forDemo = new ForDemo();
+        RecursionDemo recDemo = new RecursionDemo();
+        TailRecursionDemo tailrecDemo = new TailRecursionDemo();
 
         System.out.println("====OUTPUT DEMO====\n");
         //Calling Output Codes
@@ -71,6 +75,10 @@ public class MainDemo {
         System.out.println();
         forDemo.forIndexedString();
 
+        System.out.println("\n=====RECURSION REMO=====\n");
+        recDemo.callFactorial();
+        System.out.println();
+        tailrecDemo.callTaiLRec();
 
         System.out.println("\n\t !!!END OF DEMO!!!\n");
     }
